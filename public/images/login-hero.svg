@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1"><stop offset="0" stop-color="#0a1b3a"/><stop offset="0.55" stop-color="#0d2a55"/><stop offset="1" stop-color="#07101f"/></linearGradient>
+<radialGradient id="glow" cx="0.7" cy="0.25" r="0.6"><stop offset="0" stop-color="#3b8cff" stop-opacity=".55"/><stop offset="1" stop-color="#3b8cff" stop-opacity="0"/></radialGradient>
+<linearGradient id="bld" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16345f"/><stop offset="1" stop-color="#0a1830"/></linearGradient>
+<pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#5b9dff" stroke-opacity=".08"/></pattern>
+</defs>
+<rect width="900" height="1100" fill="url(#bg)"/>
+<rect width="900" height="1100" fill="url(#grid)"/>
+<rect width="900" height="1100" fill="url(#glow)"/>
+<g fill="none" stroke="#4d8df7" stroke-opacity=".35" stroke-width="2">
+<path d="M-20 300 C200 260 300 380 520 330 S800 220 940 280"/>
+<path d="M-20 520 C150 470 330 560 480 500 S760 430 940 500"/>
+<path d="M200 -20 C230 200 160 360 260 520 S330 800 300 1000"/>
+<path d="M640 -20 C600 160 700 320 640 480 S720 760 700 1000"/>
+</g>
+<path d="M-20 520 C150 470 330 560 480 500 S760 430 940 500" fill="none" stroke="#36e0a8" stroke-width="4" stroke-dasharray="14 12" stroke-linecap="round"><animate attributeName="stroke-dashoffset" from="0" to="-52" dur="1.4s" repeatCount="indefinite"/></path>
+<g>
+<circle cx="640" cy="380" r="14" fill="#ff6b5a"/>
+<circle cx="640" cy="380" r="14" fill="none" stroke="#ff6b5a" stroke-width="3"><animate attributeName="r" from="14" to="70" dur="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" from=".8" to="0" dur="2.2s" repeatCount="indefinite"/></circle>
+<circle cx="300" cy="545" r="10" fill="#36e0a8"/>
+<circle cx="300" cy="545" r="10" fill="none" stroke="#36e0a8" stroke-width="3"><animate attributeName="r" from="10" to="52" dur="2.6s" repeatCount="indefinite"/><animate attributeName="opacity" from=".8" to="0" dur="2.6s" repeatCount="indefinite"/></circle>
+<circle cx="500" cy="250" r="10" fill="#4d8df7"/>
+<circle cx="500" cy="250" r="10" fill="none" stroke="#4d8df7" stroke-width="3"><animate attributeName="r" from="10" to="50" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" from=".8" to="0" dur="3s" repeatCount="indefinite"/></circle>
+</g>
+<g fill="url(#bld)" stroke="#2a5aa0" stroke-opacity=".5">
+<rect x="20" y="800" width="90" height="300"/><rect x="120" y="720" width="110" height="380"/><rect x="240" y="850" width="80" height="250"/>
+<rect x="330" y="690" width="120" height="410"/><rect x="460" y="780" width="90" height="320"/><rect x="560" y="640" width="130" height="460"/>
+<rect x="700" y="760" width="90" height="340"/><rect x="800" y="700" width="110" height="400"/>
+</g>
+<g fill="#ffd36b" fill-opacity=".55">
+<rect x="140" y="750" width="10" height="14"/><rect x="170" y="750" width="10" height="14"/><rect x="200" y="790" width="10" height="14"/><rect x="140" y="830" width="10" height="14"/>
+<rect x="352" y="720" width="10" height="14"/><rect x="382" y="760" width="10" height="14"/><rect x="412" y="720" width="10" height="14"/><rect x="352" y="820" width="10" height="14"/>
+<rect x="585" y="670" width="10" height="14"/><rect x="615" y="710" width="10" height="14"/><rect x="645" y="670" width="10" height="14"/><rect x="585" y="780" width="10" height="14"/><rect x="645" y="850" width="10" height="14"/>
+<rect x="825" y="730" width="10" height="14"/><rect x="855" y="770" width="10" height="14"/>
+</g>
+<rect y="1000" width="900" height="100" fill="#050b16"/>
+<rect y="1038" width="900" height="6" fill="#1b2a44"/>
+<g transform="translate(-260 960)">
+<animateTransform attributeName="transform" type="translate" from="-260 960" to="1000 960" dur="9s" repeatCount="indefinite"/>
+<rect x="0" y="0" width="150" height="56" rx="10" fill="#f4f7fb"/>
+<rect x="96" y="-14" width="48" height="26" rx="6" fill="#f4f7fb"/><rect x="104" y="-8" width="30" height="14" rx="3" fill="#8fc6ff"/>
+<rect x="0" y="30" width="150" height="8" fill="#e5484d"/>
+<rect x="38" y="8" width="22" height="22" rx="3" fill="#e5484d"/><rect x="45" y="14" width="8" height="10" fill="#fff"/><rect x="42" y="17" width="14" height="4" fill="#fff"/>
+<circle cx="32" cy="58" r="12" fill="#111"/><circle cx="118" cy="58" r="12" fill="#111"/>
+<rect x="60" y="-22" width="24" height="8" rx="3" fill="#ff4d4d"><animate attributeName="fill" values="#ff4d4d;#4d8dff;#ff4d4d" dur=".5s" repeatCount="indefinite"/></rect>
+</g>
+</svg>
